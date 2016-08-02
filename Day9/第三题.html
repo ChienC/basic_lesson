@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript">
+		//for循环
+		var a = (0.01/1000);
+		for(var i=1;i<=30;i++){
+			a *= 2;
+			if(a>1){
+				document.write("对折"+i+"次后超过1米"+"<br>");
+			}
+		}
+		document.write("对折三十次后："+a+"米"+"<br>");
+		//while循环
+		var b = (0.01/1000);
+		var j = 1;
+		while(j<=30){
+			b *= 2;
+			if(b>1){
+				document.write("对折"+j+"次之后大于1米"+"<br>");
+			}
+			j++;
+		}
+		document.write("对折三十次后："+b+"米");
+		
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
